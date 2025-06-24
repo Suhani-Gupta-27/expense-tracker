@@ -1,0 +1,84 @@
+header {
+  background-color: #4CAF50;
+  color: white;
+  padding: 1rem;
+  font-size: 1.5rem;
+  text-align:center;
+}
+.app-container {
+  text-align: center;
+  padding: 2rem;
+}
+
+h3 {
+  color: #1e0101;
+  margin-top: 2rem;
+}
+
+p {
+  color: #540606;
+}
+input[type='number'] {
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  width: 200px;
+}
+.budget-box {
+  margin: 1rem auto;
+  max-width: 300px;
+}
+
+input[type='number'] {
+  padding: 0.5rem;
+  width: 100%;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.summary p {
+  margin: 0.3rem 0;
+  font-weight: bold;
+  color: #1e0101;
+}
+
+.over-budget {
+  color: red;
+}
+
+.expenses-section {
+  margin-top: 2rem;
+}
+
+.expense-list {
+  list-style: none;
+  padding: 0;
+}
+
+.expense-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f4f4f4;
+  border: 1px solid #ddd;
+  padding: 0.8rem;
+  margin: 0.5rem auto;
+  border-radius: 10px;
+  max-width: 400px;
+}
+
+.expense-title {
+  font-weight: bold;
+  color: #222;
+}
+
+.expense-amount {
+  color: #4CAF50;
+}
+
+.delete-btn {
+  background-color: transparent;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
